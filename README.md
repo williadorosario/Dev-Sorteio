@@ -19,3 +19,15 @@ Design Atraente
 Além de funcionar bem o sorteio é bonito de ver! Tem um vídeo de fundo que deixa tudo mais interessante e os botões mudam quando você passa o mouse por cima É um projeto que não só funciona mas também é agradável de usar
 
 Essas funcionalidades juntas fazem do Dev Sorteio uma ferramenta simples mas eficiente para quando você precisa de um número aleatório seja para um jogo uma decisão ou qualquer outra coisa que precise de sorte!
+
+<div aling="center">
+<img src="https://github.com/user-attachments/assets/0029bf71-7769-4f31-863b-df8674487dc0"
+
+</div>
+<br><br>
+
+<div aling="center">
+<img src="https://github.com/user-attachments/assets/b98b1b7e-53b0-451e-a4b0-3d7b97f604c1"
+</div>
+
+
