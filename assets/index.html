@@ -1,35 +1,77 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Dev Sorteio</title>
-  </head>
 
-  <body>
-    
-    <main>
-      <h1>Dev Sorteio</h1>
-      <p></p>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dev Sorteio</title>
 
-      <div class="container">
-        <input id="input-min" type="number" placeholder="" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
 
-        <img
-          width="50"
-          height="50"
-          src="https://img.icons8.com/fluency/50/circular-arrows.png"
-          alt="circular-arrows"
-        />
+  <style>
+    body {
+      background-color: #000;
+      font-family: "Oxanium", sans-serif;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+    }
 
-        <input id="input-max" type="number" placeholder="" />
+    h1 {
+      color: #5191e4;
+      text-shadow: 0 0 10px rgba(81, 145, 228, 0.5);
+    }
 
-        <div class="button-sorteio">
-          <button onclick="sorteio()">Sorteio</button>
-        </div>
+    p {
+      color: white;
+      font-size: 1.5rem;
+      min-height: 60px;
+    }
+
+    input {
+      background-color: rgba(255, 255, 255, 0.1);
+      color: white;
+      border: none;
+      box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+        rgba(0, 0, 0, 0.22) 0px 10px 10px;
+      text-align: center;
+    }
+
+    .btn-outline-primary {
+      width: 200px;
+      height: 50px;
+      font-size: 20px;
+    }
+
+    .btn-outline-primary :hover {
+      transform: scale(0.95);
+      background: #5191e4 !important;
+      color: white !important;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container py-5">
+
+    <h1 class="text-center mb-4 display-4">Dev Sorteio</h1>
+    <p id="resultado" class="text-center mb-4"></p>
+
+    <div class="row justify-content-center g-3 mb-4">
+      <div class="col-md-3 col-8">
+        <input type="number" id="input-min" class="form-control form-control-lg py-3" placeholder="Mínimo" />
       </div>
-    </main>
-  </body>
-  <script src="./script.js"></script>
+
+      <div class="col-md-3 col-8">
+        <input type="number" id="input-max" class="form-control form-control-lg py-3" placeholder="Máximo" />
+      </div>
+    </div>
+
+    <div class="text-center">
+      <button type="button" id="sorteio" class="btn btn-outline-primary">Sortear</button>
+    </div>
+  </div>
+</body>
+<script src="./script.js"></script>
+
 </html>

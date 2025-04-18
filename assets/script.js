@@ -1,7 +1,7 @@
-const botaoSorteio = document.getElementById("button");
+const botaoSorteio = document.getElementById("sorteio");
 const campoMinimo = document.getElementById("input-min");
 const campoMaximo = document.getElementById("input-max");
-const textoResultado = document.querySelector("p");
+const textoResultado = document.querySelector("#resultado");
 
 
 botaoSorteio.addEventListener("click", sorteio);
@@ -28,8 +28,17 @@ function sorteio() {
 
     textoResultado.innerText = `O número sorteado foi: ${resultado} !`;
 
+    
 
+    
 }
 
+
+    // Adiciona o evento de tecla Enter
+    document.addEventListener("keypress", function(e) {
+        if (e.key === "Enter") {
+            sorteio();
+        }
+    });
 
 
