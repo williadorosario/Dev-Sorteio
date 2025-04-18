@@ -86,7 +86,7 @@ Veja o número mágico aparecer! ✨
 
 <div aling="center">
 <img src="https://github.com/user-attachments/assets/7226d8cf-98c7-4ea1-8fc8-b1453d3a782e"
-
+<style = height=100px;
 
 </div>
 
