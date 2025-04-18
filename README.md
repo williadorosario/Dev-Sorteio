@@ -85,8 +85,9 @@ Veja o número mágico aparecer! ✨
 <br><br>
 
 <div aling="center">
-<img src="https://github.com/user-attachments/assets/7226d8cf-98c7-4ea1-8fc8-b1453d3a782e"
-<style = height=100px;
+<img src="https://github.com/user-attachments/assets/f04d432c-6f89-4625-86cd-962c13266fd6"
+
+
 
 </div>
 
