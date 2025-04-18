@@ -2,7 +2,7 @@
 📊 Dev Sorteio - Atualizado!
 Um projeto simples para sortear números entre um valor mínimo e máximo, agora melhorado e mais fácil de usar!
 
-✨ Novidades na Versão Atualizada
+ Novidades na Versão Atualizada
 Design profissional com Bootstrap
 
 Utilizei o Bootstrap para deixar o projeto mais bonito e responsivo
