@@ -30,4 +30,62 @@ Essas funcionalidades juntas fazem do Dev Sorteio uma ferramenta simples mas efi
 <img src="https://github.com/user-attachments/assets/b98b1b7e-53b0-451e-a4b0-3d7b97f604c1"
 </div>
 
+📊 Dev Sorteio - Atualizado!
+Um projeto simples para sortear números entre um valor mínimo e máximo, agora melhorado e mais fácil de usar!
+
+✨ Novidades na Versão Atualizada
+Design profissional com Bootstrap
+
+Utilizei o Bootstrap para deixar o projeto mais bonito e responsivo
+
+Funciona perfeitamente em celulares, tablets e computadores
+
+Tema escuro moderno
+
+Cores azuis vibrantes no fundo preto
+
+Botão estilizado que muda ao passar o mouse
+
+Mensagens mais amigáveis
+
+Agora mostra emojis 🚨 quando tem erro
+
+Explica direitinho se esquecer de preencher algo
+
+Teclado funciona
+
+Pode apertar Enter em vez de clicar no botão
+
+🛠 Tecnologias Usadas
+HTML5 (estrutura da página)
+
+CSS3 (estilos personalizados)
+
+JavaScript (funcionalidades)
+
+Bootstrap 5 (design responsivo)
+
+🎯 Como Usar
+Digite o número inicial (ex: 1)
+
+Digite o número final (ex: 100)
+
+Clique em "Sortear" ou aperte Enter
+
+Veja o número mágico aparecer! ✨
+
+🌟 Recursos Adicionados
+✅ Design responsivo (Bootstrap)
+✅ Verificação de campos vazios
+✅ Validação se o primeiro número é menor
+✅ Efeitos visuais no botão
+✅ Suporte ao teclado
+
+<br><br>
+
+<div aling="center">
+<img src="https://github.com/user-attachments/assets/dd4469b0-db4f-45d6-afef-143afd078510"
+
+</div>
+
 
