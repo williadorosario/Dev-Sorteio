@@ -29,6 +29,7 @@ Essas funcionalidades juntas fazem do Dev Sorteio uma ferramenta simples mas efi
 <div aling="center">
 <img src="https://github.com/user-attachments/assets/b98b1b7e-53b0-451e-a4b0-3d7b97f604c1"
 </div>
+<br><br>
 
 📊 Dev Sorteio - Atualizado!
 Um projeto simples para sortear números entre um valor mínimo e máximo, agora melhorado e mais fácil de usar!
@@ -84,7 +85,8 @@ Veja o número mágico aparecer! ✨
 <br><br>
 
 <div aling="center">
-<img src="https://github.com/user-attachments/assets/dd4469b0-db4f-45d6-afef-143afd078510"
+<img src="https://github.com/user-attachments/assets/7226d8cf-98c7-4ea1-8fc8-b1453d3a782e"
+
 
 </div>
 
