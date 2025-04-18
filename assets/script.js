@@ -25,7 +25,7 @@ function sorteio() {
     const max = Math.ceil(valorMaximo);
   
     const resultado = Math.floor(Math.random() * (max - min + 1)) + min;
-    
+
     textoResultado.innerText = `O número sorteado foi: ${resultado} !`;
 
 
