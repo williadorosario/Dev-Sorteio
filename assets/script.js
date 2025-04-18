@@ -1,19 +1,35 @@
-const botaoSorteio = document.getElementById('button')
+const botaoSorteio = document.getElementById("button");
+const campoMinimo = document.getElementById("input-min");
+const campoMaximo = document.getElementById("input-max");
+const textoResultado = document.querySelector("p");
 
 
+botaoSorteio.addEventListener("click", sorteio);
+  
 function sorteio() {
 
-    min = Math.floor(inputMin = document.getElementById('input-min').value)
-    max = Math.ceil(inputMax = document.getElementById('input-max').value)
-    const meuParagrafo = document.querySelector('p')
+    const valorMinimo = campoMinimo.value;
+    const valorMaximo = campoMaximo.value;
 
-    if (min >= max) {
-        meuParagrafo.innerHTML = 'O numero incial não pode se maior que o segundo'
-    } else {
-
-        const resultado = Math.floor(Math.random() * (max - min + 1) + min);
-        meuParagrafo.innerHTML = `E o numero sorteado foii:  ${resultado} 🎉🎉`
-
+    if(valorMinimo === "" || valorMaximo === ""){
+        textoResultado.innerText = " 🚨 Por favor, preencha os dois campos ! 🚨";
+        return;
     }
 
+    if(valorMinimo > valorMaximo){
+        textoResultado.innerText = " ❌ O número mínimo deve ser menor que o número máximo ! ";
+        return;
+    }
+
+    const min = Math.floor(valorMinimo);
+    const max = Math.ceil(valorMaximo);
+  
+    const resultado = Math.floor(Math.random() * (max - min + 1)) + min;
+    
+    textoResultado.innerText = `O número sorteado foi: ${resultado} !`;
+
+
 }
+
+
+
