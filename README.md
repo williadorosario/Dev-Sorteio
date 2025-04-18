@@ -76,10 +76,10 @@ Clique em "Sortear" ou aperte Enter
 Veja o número mágico aparecer! ✨
 
 🌟 Recursos Adicionados
-✅ Design responsivo (Bootstrap)
-✅ Verificação de campos vazios
-✅ Validação se o primeiro número é menor
-✅ Efeitos visuais no botão
+✅ Design responsivo (Bootstrap)<br>
+✅ Verificação de campos vazios<br>
+✅ Validação se o primeiro número é menor<br>
+✅ Efeitos visuais no botão<br>
 ✅ Suporte ao teclado
 
 <br><br>
